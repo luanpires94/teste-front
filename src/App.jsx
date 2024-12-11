@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Highlights from "./pages/Highlights";
 import Favorites from "./pages/Favorites";
-import FilterBar from "./components/FilterBar";
+import ProjectDetails from "./pages/ProjectDetails";
 
 function App() {
   return (
@@ -12,11 +12,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project-details/:id" element={<ProjectDetails />} />
           <Route path="/projetos-em-destaque" element={<Highlights />} />
           <Route path="/meus-favoritos" element={<Favorites />} />
         </Routes>
       </Router>
-      <FilterBar />
     </>
   );
 }

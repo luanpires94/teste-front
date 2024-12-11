@@ -1,3 +1,9 @@
+import FilterBar from "../components/FilterBar";
+
 export default function Highlights() {
-  return <div>Destaques</div>;
+  return (
+    <div>
+      <FilterBar />
+    </div>
+  );
 }

@@ -1,4 +1,4 @@
-# Projetos em Destaque
+# FioTec
 
 Este projeto exibe uma lista de projetos em destaque, com funcionalidades para filtrá-los por categoria, visualizar detalhes e adicionar aos favoritos.
 

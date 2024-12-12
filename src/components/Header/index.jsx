@@ -10,7 +10,7 @@ export default function Header() {
         style={{ maxWidth: "1440px", margin: "0 auto" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={LogoImg} alt="logo" width="150" />
           </a>
 
@@ -48,7 +48,7 @@ export default function Header() {
                   }
                   to="/projetos-em-destaque"
                 >
-                  Projeto em Destaque
+                  Projetos em Destaque
                 </NavLink>
               </li>
               <li className="nav-item">

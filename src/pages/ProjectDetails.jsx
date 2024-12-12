@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 
 export default function ProjectDetails() {
@@ -34,6 +34,7 @@ export default function ProjectDetails() {
   return (
     <section style={{ margin: "0 auto", maxWidth: "800px" }}>
       <div className="border-0 m-5">
+        <Link to="/projetos-em-destaque">Voltar</Link>
         <h5 style={{ fontWeight: "bold" }} className="card-title mt-4 mb-4">
           {project.title}
         </h5>

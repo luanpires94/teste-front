@@ -26,11 +26,10 @@ O frontend é desenvolvido em React, com os seguintes componentes principais:
 
 ## Instalação e Configuração
 
-1- Navegue até a pasta teste-front
-2- Instale as dependências: npm install
-3- Inicie o servidor: npm start
-
-- para rodar a api utilize o comando: dev:server
+- Navegue até a pasta teste-front
+- Instale as dependências: npm install
+- Inicie o servidor: npm start
+- Para rodar a api utilize o comando: dev:server
 
 ### Pré-requisitos
 

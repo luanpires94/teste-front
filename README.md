@@ -1,8 +1,38 @@
-# React + Vite
+# Projetos em Destaque
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto exibe uma lista de projetos em destaque, com funcionalidades para filtrá-los por categoria, visualizar detalhes e adicionar aos favoritos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Exibição de Projetos**: Lista de projetos com título, descrição e imagem.
+- **Filtragem de Projetos**: Filtre os projetos por categoria.
+- **Favoritar Projetos**: Adicione projetos aos favoritos, que são salvos na API.
+- **Detalhes do Projeto**: Clique para visualizar mais informações sobre o projeto.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **React Router**: Para navegação entre páginas.
+- **Axios**: Para realizar requisições HTTP à API.
+- **Bootstrap**: Framework CSS para estilização e responsividade.
+
+## Estrutura do Projeto
+
+O frontend é desenvolvido em React, com os seguintes componentes principais:
+
+- `Highlights`: Exibe os projetos em destaque.
+- `FilterBar`: Permite filtrar os projetos por categoria.
+- `Card`: Exibe um cartão com as informações do projeto.
+
+## Instalação e Configuração
+
+1- Navegue até a pasta teste-front
+2- Instale as dependências: npm install
+3- Inicie o servidor: npm start
+
+- para rodar a api utilize o comando: dev:server
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) instalado.
+- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) para gerenciar pacotes.
